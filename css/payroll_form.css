@@ -156,12 +156,27 @@ select {
 }
 
 .submitButton {
-    border: none;
+    
     background-color: #f5f5f5;
     margin-right: 30px;
 }
 
 .cancelButton {
+    top: 929px;
+    left: 606px;
+    width: 61px;
+    height: 26px;
+
+    text-align: left;
+    font: normal normal normal 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+
+
+
+
+
     text-decoration: none;
     text-align: center;
     background-color: #f5f5f5;
@@ -169,6 +184,7 @@ select {
 
 .resetButton{
     padding: 20px 40px;
+    background-color: #f5f5f5;
 }
 
 
@@ -206,7 +222,7 @@ select {
     .submitButton {
         margin: 0;
     }
-    .button-content {
+    .buttonParent {
         flex-direction: column-reverse;
         align-items: flex-start;
     }
