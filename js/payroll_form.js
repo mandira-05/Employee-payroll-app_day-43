@@ -138,6 +138,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     element.value = value;
   }
 
-  
+  const setErrorField=(id,value)=>{
+
+    const element=document.querySelector(id);
+    element.textContent=value
+}
+
    
 
